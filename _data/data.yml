@@ -1,0 +1,606 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Marcel Gerber
+    tagline: Operations Systems Team Leader and Engineer
+    avatar: marcel.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: me@marcelgerber.ch
+    phone: on request
+    driving_license: A B D1 BE D1E F
+    driving_license_url: https://www.ocn.ch/fr/conduire/permis-de-conduire/categories
+    timezone: Europe/Zurich
+    citizenship: Swiss
+    website: it.marcelgerber.ch #do not add http://
+    linkedin: marcelgerber
+    xing: 
+    github: chemage
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: French
+          level: Native
+
+        - idiom: Swiss German
+          level: Native
+
+        - idiom: English
+          level: Fluent in writing and speaking
+
+        - idiom: German
+          level: fluent in speaking, good writing
+
+    interests:
+      title: Interests
+      info:
+        - item: Travels, Motorcycling & Photography
+          link: travels.marcelgerber.ch
+
+        - item: Scuba Diving
+          link:
+
+        - item: Mountain Hiking and Rock Climbing
+          link: www.prends-moi-sec.ch
+
+        - item: Volunteering at local festivals<br>(Les Hivernales Rock'n'Beat Festival Nyon, Paléo Festival Nyon, Numerik Games Yverdon, FestYmalt, etc.)
+          link: 
+
+        - item: Reading & Netflixing
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Below is a brief summary of the below paragraphs.
+
+      - Close to **15 years** of experience in multi-site companies
+      - Alignment with **business strategies** and goals
+      - Encourage the **exchange** of experience and knowledge
+      - Help team to **focus** on interesting and valuable tasks / projects
+      - Ability to **relate to others**, customer oriented, open-minded and creative thinking
+      - Some of my **key skills**: independent, team work, efficient, reliable, honest
+      - IT **generalist** with a **wide scope** of skills and interests
+
+      After over ten years at various positions in information technology, 
+      operating IT infrastructures, leading IT projects and providing support, 
+      I have evolved to team lead. My latest focus is to develop further management 
+      skills and to reach that goal, I have started the **brevet fédéral de gestion 
+      d'équipe** (Swiss federal patent of team lead) in April 2023.
+      
+      I am a sociable person with good interpersonal skills, which I put to good 
+      use for external and internal relationships. People are happy to have me as 
+      a professional partner for projects, tasks and general operations. 
+      
+      My motivation stems from the following:
+      1. **What I like best**, is developing personal skills, be it technical or interpersonal.
+      1. **What I do best** is improving a team’s efficiency by helping implementing new 
+      collaboration methods.
+      
+      It is always with great pleasure that I use my different language skills, be it 
+      with users or partners. I left out Spanish, which I only gabble a little.
+      
+      Some of my key technical skills include learning about new technologies, 
+      scripting in various languages and implementing system software.
+      
+      My responsibilities usually include coordinating, various internal and external 
+      partners, creating simple and helpful documentation, follow change and transmit 
+      know-how to other teams.
+      
+      Everybody has her/his own set of skills, so it is important to me to be able to 
+      convey technical matters in a comprehensive manner to non-technical people and to 
+      further each person’s competencies.
+      
+      I work independently and assume responsibility for my decisions, I take 
+      initiatives and envision the bigger picture.
+education:
+    title: Education
+    info:
+      - degree: Ingénieur HES en informatique (IT)
+        university: École d'ingénieurs du canton de Vaud, Yverdon
+        time: 2001 - 2005
+        details:
+          
+      - degree: CFC en informatique
+        university: École Technique de Sainte-Croix (ETSC)
+        time: 1999 - 2001
+        details: |
+          Following my diplôme de commerce, I didn't really know in what direction I
+          should go. Finally, it was decided I should start this school, which also
+          started me into my independent life.
+          
+      - degree: Diplôme de commerce ESC
+        university: Gymnase de Nyon
+        time: 1996 - 1999
+        details: |
+          This cursus was a follow-up of studies instead of going for an apprenticeship.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Team Leader Operations & Support Suisse Romande
+        time: 2022 - Present
+        company: BNC AG, Yverdon-les-Bains
+        details: |
+          In this role, I was and am able to hire people for the team myself.
+
+          My day-to-day include helping my team to have the tools and knowledge they need,
+          accompany and coordinate tasks for managed services customers, plan out of business 
+          hours interventions, periodical review of staff members, planning technical courses 
+          for staff members, participate in management meetings with CEO and other team leaders
+          and service managers and much more.
+
+          I'm also helping in operating, manageing and maintaining our managed services platforms,
+          which includes adding new solutions, plan interventions and communicate with customers.
+
+          Our recent additions include:
+          - a new config backup server based on Unimus.net
+          - a new internal Gitlab server to centralize script and configs
+          - a new automation server to build and centralize more and better 
+          automation for our managed services customers.
+
+      - role: Operations & Support Engineer
+        time: 2021 - 2022 (1 year)
+        company: BNC AG, Cheseaux-sur-Lausanne (before the move to Yverdon-les-Bains)
+        details: |
+          This position was the start of a new challenge for me: working at a service company.
+          Until now, I have only been working at internal IT departments.
+
+          My responsibilities included dispatching incidents, service requests and change requests,
+          working on analysis and troubleshooting of incidents, implementing change requests in
+          networking and security areas of managed services and support customers.
+
+          My additional contributions: from early on, I was able to help improve our ticketing 
+          system so that it becomes more efficient to work with, improving processes and documention. 
+          From the start, I also positioned myself as an internal IT helper which allowed me to
+          implement FSLogix for our internal jump servers based on VMware Horizon View.
+
+      - role: IT Technical Lead and Team Lead
+        time: 2021 (7 months)
+        company: Conforama Suisse SA, Bussigny
+        details: |
+          Swiss national company with 22 stores and 6 warehouses.
+
+          - sysadmin team lead to improve organisation for increased efficiency
+          - technical project management and implementation
+          - networking with Aruba products and Checkpoint Firewall
+          - management of cloud computing (OVH, Azure)
+
+      - role: Citrix ICT systems engineer
+        time: 2018 - 2020 (2.5 years)
+        company: Unilabs laboratoires d’analyses médicales, Coppet
+        details: |
+          Swiss national wide company which provides administrative and operational services to a number of 
+          laboratories and sampling sites.
+
+          - technical project management
+          - manage, maintain and evolve Citrix XenApp and XenDesktop farm, including its hardware
+          - virtualize lab software with Citrix XenApp
+          - Recently migrated XenApp hosting from XenServer to VMware 6.7
+          - collaborating with other IT teams (Service Desk, Applications, Interfaces, Project, etc. in D-CH, F-CH and I-CH)
+
+      - role: Information Services Consultant
+        time: 2015 - 2018 (3 years)
+        company: McDonald's Suisse Management Services Sàrl, Crissier
+        details: |
+          Swiss national wide company which provides administrative and operational services 
+          to 160+ restaurants.
+
+          - technical project management of restaurant solutions
+          - proprietary restaurant back office solutions management for Swiss market
+          - collaborating with Global IS department for multi-national project implementations in Swiss market
+          - collaborating with Service Desk in Hungary and India, including knowledge transfer
+          - driving multiple partners for integration, deployment and troubleshooting
+
+      - role: Personal break and intermittent IT job
+        time: 2012 - 2014 (3 years)
+        company: the world
+        details: |
+          During this time, I left first for Mozambique where I learned how to be a 
+          proficient PADI divemaster. I continued with traveling most of the countries
+          in southern Africa. During the travelling period, I used land-based local transportation
+          exclusively, which put me in some interesting situations.
+
+          I returned to Switzerland to volunteer at Paléo Festival for the whole set-up and 
+          tear-down, which took about 3 months all in all.
+
+          After this I worked a year for ATI Stellram as an IT Helpdesk Operator. The
+          company was in the process of being aquired by Kennametal.
+
+          The last phase of my personal break was completing my PADI education with the
+          Open Water Scuba Instructor in Costa Rica. From where I jumped over to the Dominican 
+          Republic for a stunt at the job and then over to Cambodia. There I discovered 
+          South East Asia using local transportation for a period of about 6 months.
+
+      - role: Operations & Support Engineer
+        time: 2021 - 2022 (1 year)
+        company: BNC AG, Cheseaux-sur-Lausanne (before the move to Yverdon-les-Bains)
+        details: |
+
+      - role: IT Manager ad interim
+        time: 2012 (4 months)
+        company: Manpower SA, Genève
+        details: |
+          Swiss franchise of the renowned international staffing company;<br>
+          400 users and 60 sites across Switzerland, working as a member of its IT team 
+          which covers all sites.
+
+          During the time it took to hire a new and trained IT manager, which would become 
+          the IT Director (not being part of finance department anymore), I was able to take
+          this responsibility.
+
+          Included in my duties were:
+          - leading of IT related projects
+          - leading of IT team of 4 people
+          - management of external service providers
+
+      - role: IT Systems Engineer
+        time: 2006 - 2012
+        company: Manpower SA, Genève
+        details: |
+          This is the position where I was able to evolve from a student to a skilled 
+          professional. My team leader was great at entrusting me interesting tasks and 
+          projects and we had similar ways of thinking and operating the service.
+
+          My duties included:
+          - collaboration with external service providers
+          - server installation and management
+          - server virtualisation
+          - storage management (HP EVA 4400)
+          - domain and e-mail systems management
+          - SharePoint installation and management
+          - database installation and management
+          - desktop imaging and management
+          - software packages creation and deployment
+          - network management
+          - helpdesk support level 2 & 3
+          - patch deployment
+          - anti-virus and threat management
+          - multifunctional printers management
+
+      - role: IT technical support
+        time: 2005 - 2006 (1 year)
+        company: Performance System Software SA, Chêne-Bourg
+        details: |
+          Small company selling and providing support on software for Windows and 
+          maintenance contracts on general IT support.
+
+          - helpdesk support level 1 & 2 for customers
+          - on-site support
+          - on-site product installation
+          - installing Debian webserver for company
+            
+
+projects:
+    title: Projects
+    intro: >
+      These are some projects I was able to accomplish.
+    assignments:
+      - title: Implementing and follow-up of an on-going training plan for the Operations & Support team @ BNC
+        tagline: >
+          During my job interview, I was told I would be able to benefit from vendor trainings to 
+          help me get up on speed with the many different technologies we are implementing and managing
+          for managed services and support customers.
+
+          The reality was slightly different: after a couple of months I was dropped into dispatching and
+          incident resolution without prior training.
+
+          I was able to setup a training plan (customized for each team member), which is aligned with our
+          business needs at the moment and in a projected mid-term future.
+
+          Out newly hired staff now start with vendor trainings and certifications in addition to the internal
+          training.
+
+      - title: Re-design the organization and operations of the Operations & Support team @ BNC
+        tagline: >
+          When I started at BNC, the dispatcher did everything by himself from creating the ticket to 
+          working towards its resolution or reassigning it to other teams.
+
+          For this job I reviewed and updated processes, workflow diagrams and guidelines.
+
+          At the end of this project, the dispatcher had different tasks which include:
+          - Open tickets from the monitoring system, the customers and the vendors (vulnerabilities);
+          - Have a good overview of current issues and help identify recurring issues.
+          - Review and cleanup of old problems still active in the monitoring system;
+
+      - title: Migration of Citrix hosting from XenServer to VMware @ Unilabs
+        # link: "#hook"
+        tagline: >
+          Participate in VMware ESX preparation, configure Citrix hosting for VMware, 
+          move all existing master images from XenServer to VMware, create new machine 
+          catalogs for VMware and seamlessly move users to the VMware hosted worker machines.
+
+      - title: Full Citrix Virtual Apps and Desktops deployment @ Unilabs
+        tagline: >
+          At Unilabs, the production environment was fully in place. All I needed to do 
+          was create and use strict processes. But for the pre-production environment, 
+          what was available was obsolete and not working.
+          
+          The tasks for this included the following:
+          • Set up Citrix Delivery Controllers;
+          • Set up Citrix ADC Load Balancers;
+          • Set up Citrix ADC Access Gateway;
+          • Create master machines;
+          • Deploy applications for testing purposes.
+        
+      # - title: Deploying LIS (laboratory information software) using Citrix XenApp & Desktop @ Unilabs
+      #   tagline: >
+      #     The LIS for F-CH labs, called Jade, is written using an old version of Java.
+
+      #     Some system and scripting cause some parts of the software not to work as expected, 
+      #     which creates many challenges to implement a solution which works as fast as possible 
+      #     with a minimum of issues. We needed to include stakeholders and laboratory users.
+        
+      - title: Windows 7 replacement for Windows 2003 and Windows XP back office devices @ McDonald's
+        tagline: >
+          Working towards a new solution with SCCM software deployments and minimal manual 
+          intervention.
+          
+          Redefinition of strategies like user document location.
+          
+          Scripted an almost completely automated Windows 7 image deployment to remote 
+          locations using Powershell.
+
+          This project needed careful planning with the operations and the local restaurant teams.
+        
+      - title: Designing new Windows 7 virtual machine for restaurant management for the Swiss market @ McDonald’s
+        tagline: >
+          Design and implement a solution for deploying Windows 7 virtual machines into 
+          restaurants in order to replace the previous solution.
+          
+          Part of the task:
+          • Define and design a new set of GPO’s in the new domains (one for users and one 
+          for machines);
+          • Create automated installation packages for deployment with SCCM;
+          • Coordinate with partner for SCCM package deployments;
+          • Design and implement a set of Powershell and Batch scripts to copy the Hyper-V 
+          VHD to the restaurant server, create the VM, start it and configure it.
+        
+      - title: Harmonizing restaurant management software versions @ McDonald’s
+        tagline: >
+          Driving an external partner to prepare and upgrade two restaurant management 
+          software to a single version of each software, also harmonizing their configuration 
+          and management.
+          
+          Part of task:
+          • Specify requirements and managing external partner to their fulfilment;
+          • Prepare and send communication to the franchisees and restaurants;
+          • Prepare and drive the deployment of the upgrades.
+
+      - title: Hardware replacement for time-punching device @ McDonald’s
+        tagline: >
+          Driving an external partner to build a new device and OS to replace current solution.
+
+          Part of the task:
+          • Specify requirements and managing external partner to their fulfilment;
+          • Design and implement a Powershell script to configure the device on first start in restaurant;
+          • Prepare and send communication to the franchisees and restaurants;
+          • Prepare and drive the deployment of the new device to the restaurants.
+
+      - title: VMware virtualisation infrastructure @ Manpower
+        tagline: >
+          Implementing, managing and growing of a virtualisation infrastructure in a SAN environment.
+
+          After implementing a first draft with the help of a third-party provider, we quickly realized
+          that the design would not be working on the long-term.
+
+          After a SAN crash, we had to rebuild everything from scratch, project I led and implemented
+          without external help.
+
+      - title: Virtual desktop infrastructure @ Manpower
+        tagline: >
+          Implementing, managing and maintaining a VDI infrastructure with Citrix XenDesktop.
+
+          For this project, we requested help from my previous employer, PSS SA, with whom
+          we spent some time setting up the environment and first golden image. After that,
+          I was able to operate the environment on my own.
+
+      - title: Backup restructuring @ Manpower
+        tagline: >
+          Restructuring of a multiple tape drives and library backup to a disk backup and 
+          tape duplication system with a single tape library.
+
+      - title: Security definition with GPOs @ Manpower
+        tagline: >
+          Redesigning security scopes for IT tasks in Active Directory for Helpdesk, Admins 
+          and specific tasks.
+
+          The goal was to split Helpdesk from being domain admins and create standard users 
+          for all admin users (helpdesk and infrastructure team).
+
+      - title: Desktop imaging system @ Manpower
+        tagline: >
+          Implementing an automated desktop imaging system with Linux and WinPE preboot images 
+          using Altiris Deployment Solutions in a multiple sites environment.
+
+          With the help from a third-party provider, I set up my first image deployment automation
+          solution. Once in place, the Helpdesk team members were able to deploy the latest image 
+          on workstations in all of the remote locations.
+
+certifications:
+      title: Courses and Trainings
+      list:
+        - name: Citrix XenDesktop & XenApp Knowledge Transfer by 4net @ Unilabs
+          start: 2018
+          end: 
+          organization: 4net AG
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: >
+            A few live session days with Roman from 4net and many phone calls helped me
+            take over the operation of the Citrix Xen infrastructure.
+
+        - name: Fire extinguishing training @ McDonald’s
+          start: 2016
+          end: 
+          organization: KAB Brandschutz
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details:
+
+        - name: EFR instructor
+          start: 2014
+          end: 
+          organization: Go Pro Costa Rica, Costa Rica
+          credentialid: 323063
+          credentialurl: 
+          credentialname: PADI
+          details:
+
+        - name: PADI Open Water Scuba Instructor
+          start: 2014
+          end: 
+          organization: Go Pro Costa Rica, Costa Rica
+          credentialid: 323063
+          credentialurl: 
+          credentialname: PADI
+          details:
+
+        - name: PADI Divemaster
+          start: 2013
+          end: 
+          organization: Tofo Scuba, Mozambique
+          credentialid: 323063
+          credentialurl: 
+          credentialname: PADI
+          details: |
+            Spent 5 months in Mozambique to go from Open Water Scuba Diver to Divemaster.<br>
+            During this time, I was able to do over 200 hundred dives in beautiful dive spots.
+
+        - name: MS SQL&colon; Configuring, Managing & Troubleshooting
+          start: 2011
+          end: 
+          organization: IT Training Academy, Geneva
+          credentialid: 
+          credentialurl: 
+          credentialname: Microsoft
+          details:
+
+        - name: Microsoft Exchange&colon; Configuring, Managing & Troubleshooting
+          start: 2010
+          end: 
+          organization: IT Training Academy, Geneva
+          credentialid: 
+          credentialurl: 
+          credentialname: Microsoft
+          details:
+
+        - name: VMware Infrastructure 3&colon; Install & Configure
+          start: 2008
+          end: 
+          organization: Magirus Academy, Geneva
+          credentialid: 
+          credentialurl: 
+          credentialname: VMware
+          details:
+
+        - name: Infrastructure virtuelle avec ESX et VirtualCenter
+          start: 2006
+          end: 
+          organization: Magirus Academy, Geneva
+          credentialid: 
+          credentialurl: 
+          credentialname: VMware
+          details:
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Planning, Coordination and Communication
+        level: 80%
+
+      - name: Technical Project Lead
+        level: 80%
+
+      - name: Team Management
+        level: 60%
+
+      - name: Change Management
+        level: 40%
+
+      - name: Python & PowerShell Scripting
+        level: 90%
+
+      - name: Virtualization Systems Engineer with Citrix Xen Products
+        level: 90%
+
+      - name: Active Directory and Group Policy Design, Implementation and Management
+        level: 90%
+
+      - name: Windows 7 - 10 Automated Deployment
+        level: 80%
+
+      - name: Virtualization Operations Engineer with VMware Horizon View
+        level: 60%
+
+      - name: Network and Security Engineer
+        level: 60%
+
+      - name: Code and Configuration Management with Git (GitHub and GitLab)
+        level: 40%
+
+      - name: Linux Operations and Management
+        level: 40%
+
+footer: >
+  An online resume powered by GitHub, Jekyll and sharu725/online-cv
